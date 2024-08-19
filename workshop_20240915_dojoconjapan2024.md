@@ -10,8 +10,11 @@ M5StickCを使って、色を探すゲームを制作するワークショップ
 ・Wi-Fi 2.4GHz帯接続
   
 # M5いろさがしとは
+  
+<img src="/image/otama.png" width="25%" alt="サンプル画像">  
+
 otomaさん制作の色探しゲーム。
-二人のプレイヤーがお題で示された色に近い色を探してカラーセンサで読み取り、より近い色を探したプレイヤーが勝ち。
-参考サイト：[https://protopedia.net/prototype/5078](https://protopedia.net/prototype/5078)
+二人のプレイヤーがお題で示された色に近い色を探してカラーセンサで読み取り、より近い色を探したプレイヤーが勝ち。  
+参考サイト：[https://protopedia.net/prototype/5078](https://protopedia.net/prototype/5078)  
 
 # 講師自己紹介
