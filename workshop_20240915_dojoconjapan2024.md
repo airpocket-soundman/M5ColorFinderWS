@@ -13,18 +13,19 @@ M5StickCを使って、色を探すゲームを制作するワークショップ
   
 <img src="https://github.com/airpocket-soundman/M5ColorFinderWS/blob/main/image/otama.png?raw=true" width="20%" alt="otama mark">  
 
-otomaさん制作の色探しゲーム。
-二人のプレイヤーがお題で示された色に近い色を探してカラーセンサで読み取り、より近い色を探したプレイヤーが勝ち。  
+otomaさん制作の色探しゲーム。  
+二人のプレイヤーがお題で示された色に近い色を探してカラーセンサで読み取り、より近い色を探したプレイヤーが勝ち。    
 参考サイト：[https://protopedia.net/prototype/5078](https://protopedia.net/prototype/5078)  
 
-# 講師自己紹介
+# メンター自己紹介
   
 <img src="https://github.com/airpocket-soundman/M5ColorFinderWS/blob/main/image/airpocket2-removebg-preview.png?raw=true" width="20%" alt="airpokcet mark">   
+
 山下 泰弘/airpocket  
 ホビーメイカー  
-M5Stack Japan Creativity Contest 2021 優勝  
-M5Stack Japan Creativity Contest 2022 M5Stayle賞  
-M5Stack Japan Creativity Contest 2023 準優勝  
+M5Stack Japan Creativity Contest 2021 優勝    
+M5Stack Japan Creativity Contest 2022 M5Stayle賞    
+M5Stack Japan Creativity Contest 2023 準優勝    
   
 # M5Stackとは
   
@@ -306,11 +307,12 @@ M5StickCの「Aボタン」を押してゲームを進める機能を追加し�
 <img src="https://github.com/airpocket-soundman/M5ColorFinderWS/blob/main/image/uiflow_30.png?raw=true" alt="uiflow_30"><br>
 
 **Tips**  
-*「Run」による実行はテスト的な動作を行うモードです。M5Stickのメモリにはプログラムが書き込まれていないため、電源をリセットすると再度実行はできません。電源をリセットしても再実行させたい場合は「Dowonload」ボタンを押してプログラムをフラッシュメモリに書き込む必要があります。*  
+*「Run」による実行はテスト的な動作を行うモードです。M5Stickのメモリにはプログラムが書き込まれていないため、電源をリセットすると再度実行はできません。電源をリセットしても再実行させたい場合は「ダウンロード」ボタンを押してプログラムをフラッシュメモリに書き込む必要があります。*  
   
 ## ゲームロジック追加
   
-ここまでのプログラムで色を読み取って表示するだけの機能が実装できました。読み取った色を使って勝敗を決めるロジックを追加します。  
+ここまでのプログラムで色を読み取って表示するだけの機能が実装できました。  
+読み取った色を使って勝敗を決めるロジックを追加します。  
 まず「数学」ブロックの中から、次の二つのブロックを取り出してください。
 <img src="https://github.com/airpocket-soundman/M5ColorFinderWS/blob/main/image/uiflow_31.png?raw=true" alt="uiflow_31"><br>
   
@@ -326,7 +328,7 @@ M5StickCの「Aボタン」を押してゲームを進める機能を追加し�
 「ラベル」ブロックはディスプレイにテキストを表示するブロックです。「UI」＞「ラベル」の中にあります。
 <img src="https://github.com/airpocket-soundman/M5ColorFinderWS/blob/main/image/uiflow_34.png?raw=true" alt="uiflow_34"><br>
   
-「judgemet」関数では、ターゲットとなる色とplayer1、player2の色の差を計算してそれぞれdistance1とdistance2に保存、色の差が小さい方を勝者としています。
+「judgement」関数では、ターゲットとなる色とplayer1、player2の色の差を計算してそれぞれdistance1とdistance2に保存、色の差が小さい方を勝者としています。
   
 関数ができたら、ボタンAが押されたときに実行されるプログラムを次の通り修正します。
 <img src="https://github.com/airpocket-soundman/M5ColorFinderWS/blob/main/image/uiflow_38.png?raw=true" alt="uiflow_38"><br>
@@ -370,15 +372,34 @@ M5Stack Japan Creativity Contestはものづくり界隈でも最大級の規模
   
 ## ｽﾀｯｸﾁｬﾝ
   
-M5Stack界隈の最大派閥がｽﾀｯｸﾁｬﾝ。   
+M5Stackで作れるコンパニオンロボット。  
+M5Stack界隈の最大派閥。   
 Hackaday Prize 2021 2nd Prize。  
 いち早くChatGPTに対応したことで元Open AI、現Googleのシェイン・グウ氏も注目。  
-M5Stackで作れるコンパニオンロボット。  
   
 ## M5StampFly
   
 M5Stackで動くクアッドコプター。  
 日本人コントリビューター多数。  
+  
+# N5Stackの開発環境
+## UIFlow
+ブロックプログラミング。  
+micro pythonも使用可能。
+  
+## UIFlow2
+UIFlowの改良版。  
+クラウドサービスが強化されている。  
+ユーザー登録必要  
+  
+## ArduinoIDE
+C++風  
+ライブラリ多数  
+UIFlowよりも自由度が高い  
+  
+## その他
+VSCodeでコード出来るPlatform IOやmicropython環境もあるが情報が少な目なので玄人向け。
+  
 
 
 
