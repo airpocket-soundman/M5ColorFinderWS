@@ -123,6 +123,14 @@ M5Stickの設定を確認するにはM5Burnerの「Configure」ボタンを押�
 ・WIFI SSID:2.4GHz帯のアクセスポイントを入力  
 ・WIFI Password:アクセスポイントのパスワードを入力  
   
+<img src="https://github.com/airpocket-soundman/M5ColorFinderWS/blob/main/image/configure_3.png?raw=true" alt="configure 3"><br>
+  
 # M5いろあつめ　制作
-
-##
+## UIFlowを開く
+UIFlowはブラウザ上で動作するブロックプログラミング環境です。  
+次のサイトを開いてみましょう。  
+https://flow.m5stack.com/  
+  
+### デバイスの選択
+UIFlowのエディタ画面が開いたら、右上の三本線のアイコンをマウスオーバーし、「設定」をクリックしてください。  
+<img src="https://github.com/airpocket-soundman/M5ColorFinderWS/blob/main/image/uiflow_00.png?raw=true" alt="uiflow_00"><br>
