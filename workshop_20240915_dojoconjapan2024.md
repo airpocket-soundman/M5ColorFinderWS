@@ -288,7 +288,7 @@ M5StickCの「Aボタン」を押してゲームを進める機能を追加し�
 同時に条件式を入力するブロックも使用します。  
 <img src="https://github.com/airpocket-soundman/M5ColorFinderWS/blob/main/image/uiflow_27.png?raw=true" alt="uiflow_27"><br> 
   
-引き出した状態のブロックを次のようにつなげてください。
+引き出した状態のブロックを次のようにつなげてください。  
 <img src="https://github.com/airpocket-soundman/M5ColorFinderWS/blob/main/image/uiflow_28.png?raw=true" alt="uiflow_28"><br>
   
 このままでは一つの状態しか扱えないため「もし～であれば」ブロックの歯車をクリックして「else if」を追加し、三つの状態を扱える様にします。
