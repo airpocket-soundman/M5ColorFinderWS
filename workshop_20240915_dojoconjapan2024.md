@@ -205,9 +205,7 @@ Height:90
 ブロックのリストから「変数」＞「変数の作成…」をクリックすると変数を作成できます。  
 <img src="https://github.com/airpocket-soundman/M5ColorFinderWS/blob/main/image/uiflow_10.png?raw=true" alt="uiflow_10"><br>
   
-　　
-
-作成する変数名を入力して「OK」をクリックします。　　
+作成する変数名を入力して「OK」をクリックします。  
 <img src="https://github.com/airpocket-soundman/M5ColorFinderWS/blob/main/image/uiflow_11.png?raw=true" alt="uiflow_11"><br>
   
 同様に以下のすべての変数を作成してください。  
