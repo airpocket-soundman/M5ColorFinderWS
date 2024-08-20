@@ -2,16 +2,16 @@
   
 M5StickCを使って、色を探すゲームを制作するワークショップです。  
 プログラム言語としてUIFlowというブロックプログラミングを使用します。  
-対象年齢：小学4年生以上
-必要機材および環境：
-・プログラミング用PC
-・M5StickC Plus もしくは M5StickC Plus 2
-・M5Stack用カラーセンサユニット
-・Wi-Fi 2.4GHz帯接続
+スキルレベル：Scratchができる。MakeCodeでMicro:bitのプログラミングができる。  
+必要機材および環境：  
+・プログラミング用PC  
+・M5StickC Plus もしくは M5StickC Plus 2  
+・M5Stack用カラーセンサユニット  
+・Wi-Fi 2.4GHz帯接続  
   
 # M5いろさがしとは
   
-<img src="https://github.com/airpocket-soundman/M5ColorFinderWS/blob/main/image/otama.png?raw=true" width="25%" alt="otama mark">  
+<img src="https://github.com/airpocket-soundman/M5ColorFinderWS/blob/main/image/otama.png?raw=true" width="20%" alt="otama mark">  
 
 otomaさん制作の色探しゲーム。
 二人のプレイヤーがお題で示された色に近い色を探してカラーセンサで読み取り、より近い色を探したプレイヤーが勝ち。  
@@ -19,7 +19,8 @@ otomaさん制作の色探しゲーム。
 
 # 講師自己紹介
   
-<img src="https://github.com/airpocket-soundman/M5ColorFinderWS/blob/main/image/airpocket2-removebg-preview.png?raw=true" width="20%" alt="airpokcet mark"> 山下 泰弘/airpocket  
+<img src="https://github.com/airpocket-soundman/M5ColorFinderWS/blob/main/image/airpocket2-removebg-preview.png?raw=true" width="20%" alt="airpokcet mark">   
+山下 泰弘/airpocket  
 ホビーメイカー  
 M5Stack Japan Creativity Contest 2021 優勝  
 M5Stack Japan Creativity Contest 2022 M5Stayle賞  
@@ -39,10 +40,11 @@ M5Stack Japan Creativity Contest 2023 準優勝
   
 # スポンサー紹介
   
-株式会社スイッチサイエンス様  
+**株式会社スイッチサイエンス様**  
 今回のワークショップに使用する機材をご提供いただきました。ありがとうございます。  
-M5Stack製品を日本に広め各種イベントを開催。ユーザーグループの発展にも大きな協力をされておりいちユーザーとしては足を向けられません。  
-M5Stack製品の在庫も充実しています。  
+公式代理店としてM5Stack製品を日本に広め、各種イベントを開催。ユーザーグループの発展にも多大な協力をされています。  
+いちユーザーとしては足を向けられません。  
+M5Stack製品の在庫が最も充実しています。  
   
 # 事前準備
   
@@ -51,12 +53,12 @@ M5Stack製品の在庫も充実しています。
 M5StickC Plus/Plus2には、リチウムイオンバッテリーが搭載されています。事前に充電することで単独で使用できます。  
 USB Type Cケーブルで充電できます。  
   
-※リチウムインバッテリーを搭載しているため取り扱いには注意が必要です。  
+**※リチウムインバッテリーを搭載しているため取り扱いには注意が必要です。**  
 過充電、過放電、夏場の車内放置などを避け、スマホと同等の取り扱いを心がけましょう。  
   
 ## ファームウェア書き込み
   
-M5いろさがしは「UIFlow」というブロックプログラミング環境を使用します。  
+M5いろさがしは**「UIFlow」**というブロックプログラミング環境を使用します。  
 購入直後のM5Stickにはデモプログラムが書き込まれているため、「M5Burner」というツールを使ってUIFlowのファームウェアを書き込む必要があります。 
 
 ファームウェアの書き込みはUSBケーブルを通じて行いますので、M5StickCとPCをUSBケーブルで接続したうえで以下の作業を実行してください。   
@@ -145,11 +147,13 @@ Serverは任意ですが、ここでは「flow-jp.m5stack.com(Japan)」を選択
   
 M5いろあつめでは、カラーセンサユニットを使用します。M5StickCとカラーセンサを付属のGroveケーブルで接続してください。  
   
-UIFlowでもセンサを追加するとセンサを制御するブロックが使える様になります。  
+UIFlowにも使用するセンサを追加します。  
+追加するとセンサを制御するブロックが使える様になります。  
 画面左側の「＋」アイコンをクリックして接続するUnitを選択します。  
 <img src="https://github.com/airpocket-soundman/M5ColorFinderWS/blob/main/image/uiflow_02.png?raw=true" alt="uiflow_02"><br>
   
-M5Stackで使えるユニットがたくさん表示されます。ダイアログ上部の検索窓に「color」と入力して絞り込みます。  
+M5Stackで使えるユニットがたくさん表示されます。　　
+ダイアログ上部の検索窓に「color」と入力して絞り込みます。  
 今回使用するカラーセンサのチェックボックスをクリックします。「port」にA(33,32)と表示されていることを確認して右下の「OK」をクリックしてください。  
 「port」はM5Stickとセンサユニットの接続に使用するポートを指定する項目です。カラーセンサはport Aを使用します。  
 <img src="https://github.com/airpocket-soundman/M5ColorFinderWS/blob/main/image/uiflow_03.png?raw=true" alt="uiflow_03"><br>
@@ -201,7 +205,9 @@ Height:90
 ブロックのリストから「変数」＞「変数の作成…」をクリックすると変数を作成できます。  
 <img src="https://github.com/airpocket-soundman/M5ColorFinderWS/blob/main/image/uiflow_10.png?raw=true" alt="uiflow_10"><br>
   
-作成する変数名を入力して「OK」をクリックします。
+　　
+
+作成する変数名を入力して「OK」をクリックします。　　
 <img src="https://github.com/airpocket-soundman/M5ColorFinderWS/blob/main/image/uiflow_11.png?raw=true" alt="uiflow_11"><br>
   
 同様に以下のすべての変数を作成してください。  
