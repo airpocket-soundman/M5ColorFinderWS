@@ -286,6 +286,64 @@ M5StickCの「Aボタン」を押してゲームを進める機能を追加し�
 引き出した状態のブロックを次のようにつなげてください。
 <img src="https://github.com/airpocket-soundman/M5ColorFinderWS/blob/main/image/uiflow_28.png?raw=true" alt="uiflow_28"><br>
   
-このままでは一つの状態しか扱えないため「もし～であれば」ブロックの歯車をクリックして、「else if」を追加して三つの状態を扱える様にします。
+このままでは一つの状態しか扱えないため「もし～であれば」ブロックの歯車をクリックして「else if」を追加し、三つの状態を扱える様にします。
+
 <img src="https://github.com/airpocket-soundman/M5ColorFinderWS/blob/main/image/uiflow_29.png?raw=true" alt="uiflow_29"><br>
+
+条件式と関数、step_numberの変更ブロックを追加してください。
+<img src="https://github.com/airpocket-soundman/M5ColorFinderWS/blob/main/image/uiflow_29_2.png?raw=true" alt="uiflow_29_2"><br>
   
+## 動作確認１
+  
+ここまでのブロックで、色を読み取りrectangleに表示するだけのコードができました。M5StickCに書き込んで、動作確認をします。
+  
+全体のブロックは次の通りです。画面右下の「Run」ボタンをクリックするとM5StickCが動作します。
+<img src="https://github.com/airpocket-soundman/M5ColorFinderWS/blob/main/image/uiflow_30.png?raw=true" alt="uiflow_30"><br>
+
+**Tips**  
+*「Run」による実行はテスト的な動作を行うモードです。M5Stickのメモリにはプログラムが書き込まれていないため、電源をリセットすると再度実行はできません。電源をリセットしても再実行させたい場合は「Dowonload」ボタンを押してプログラムをフラッシュメモリに書き込む必要があります。*  
+  
+## ゲームロジック追加
+  
+ここまでのプログラムで色を読み取って表示するだけの機能が実装できました。読み取った色を使って勝敗を決めるロジックを追加します。  
+まず「数学」ブロックの中から、次の二つのブロックを取り出してください。
+<img src="https://github.com/airpocket-soundman/M5ColorFinderWS/blob/main/image/uiflow_31.png?raw=true" alt="uiflow_31"><br>
+  
+勝敗を判定するための新しい関数「judgement」を作ります。  
+先ほどの数学ブロックを次の様にセットして「＋」アイコンをクリックすると、ブロック入力枠が一つ増えます。
+<img src="https://github.com/airpocket-soundman/M5ColorFinderWS/blob/main/image/uiflow_32.png?raw=true" alt="uiflow_32"><br>
+
+<img src="https://github.com/airpocket-soundman/M5ColorFinderWS/blob/main/image/uiflow_33.png?raw=true" alt="uiflow_33"><br>
+
+さらに「数学」ブロック、「論理」ブロック、「ラベル」ブロックを次の様に組み合わせます。  
+<img src="https://github.com/airpocket-soundman/M5ColorFinderWS/blob/main/image/uiflow_37.png?raw=true" alt="uiflow_37"><br>
+  
+「ラベル」ブロックはディスプレイにテキストを表示するブロックです。「UI」＞「ラベル」の中にあります。
+<img src="https://github.com/airpocket-soundman/M5ColorFinderWS/blob/main/image/uiflow_34.png?raw=true" alt="uiflow_34"><br>
+  
+「judgemet」関数では、ターゲットとなる色とplayer1、player2の色の差を計算してそれぞれdistance1とdistance2に保存、色の差が小さい方を勝者としています。
+  
+関数ができたら、ボタンAが押されたときに実行されるプログラムを次の通り修正します。
+<img src="https://github.com/airpocket-soundman/M5ColorFinderWS/blob/main/image/uiflow_38.png?raw=true" alt="uiflow_38"><br>
+  
+ここでは、新たにrectangleの表示を変更するブロックを使用しています。  
+このブロックは「UI」＞「四角形」の中にあります。
+<img src="https://github.com/airpocket-soundman/M5ColorFinderWS/blob/main/image/uiflow_36.png?raw=true" alt="uiflow_36"><br>
+
+## 動作確認２
+  
+以上でM5いろさがしのプログラムが完成しました。  
+「Run」ボタンを押して、プログラムが正しく動作するか確認してください。
+<img src="https://github.com/airpocket-soundman/M5ColorFinderWS/blob/main/image/uiflow_39.png?raw=true" alt="uiflow_39"><br>
+
+正しく動作したら、「ダウンロード」ボタンを押してメモリに書き込んでください。
+
+# M5いろあつめの遊び方
+  
+①M5StickCにカラーセンサを接続してから電源を入れてください。  
+②ディスプレイ上部に目的となる色が表示されています。  
+③Player1の番です。  
+目的の色になるべく近い色を探して、カラーセンサを押し付けてAボタンを押して色を読み取ってください。
+④Player2の番です。
+目的の色になるべく近い色を探して、カラーセンサを押し付けてAボタンを押して色を読み取ってください。
+⑤Player2が色を読み取ると、勝敗がひょうじされます。もう一度Aボタンを押すと次のゲームが始まります。
