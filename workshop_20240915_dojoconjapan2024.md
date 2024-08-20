@@ -11,7 +11,7 @@ M5StickCを使って、色を探すゲームを制作するワークショップ
   
 # M5いろさがしとは
   
-<img src="https://github.com/airpocket-soundman/M5ColorFinderWS/blob/main/image/otama.png" width="25%" alt="otama mark">  
+<img src="https://github.com/airpocket-soundman/M5ColorFinderWS/blob/main/image/otama.png?raw=true" width="25%" alt="otama mark">  
 
 otomaさん制作の色探しゲーム。
 二人のプレイヤーがお題で示された色に近い色を探してカラーセンサで読み取り、より近い色を探したプレイヤーが勝ち。  
@@ -19,7 +19,7 @@ otomaさん制作の色探しゲーム。
 
 # 講師自己紹介
   
-<img src="https://github.com/airpocket-soundman/M5ColorFinderWS/blob/main/image/airpocket2-removebg-preview.png" width="20%" alt="airpokcet mark"> 山下 泰弘/airpocket  
+<img src="https://github.com/airpocket-soundman/M5ColorFinderWS/blob/main/image/airpocket2-removebg-preview.png?raw=true" width="20%" alt="airpokcet mark"> 山下 泰弘/airpocket  
 ホビーメイカー  
 M5Stack Japan Creativity Contest 2021 優勝  
 M5Stack Japan Creativity Contest 2022 M5Stayle賞  
@@ -33,9 +33,9 @@ M5Stack Japan Creativity Contest 2023 準優勝
 ・ESP32搭載モデルはWi-Fi/Bluetoothによる無線接続も可能。  
 ・単体のマイコンボードとしてだけでなく、多様なセンサ類などの追加ユニットやUIFlowというビジュアルプログラミング環境などを含めたエコシステムが最大の特徴。  
   
-<img src="https://github.com/airpocket-soundman/M5ColorFinderWS/blob/main/image/m5_1.png" alt="lineup_01"><br>  
-<img src="https://github.com/airpocket-soundman/M5ColorFinderWS/blob/main/image/m5_2.png" alt="lineup_02"><br>  
-<img src="https://github.com/airpocket-soundman/M5ColorFinderWS/blob/main/image/m5_3.png" alt="lineup_03">  
+<img src="https://github.com/airpocket-soundman/M5ColorFinderWS/blob/main/image/M5_1.png?raw=true" alt="lineup_01"><br>  
+<img src="https://github.com/airpocket-soundman/M5ColorFinderWS/blob/main/image/M5_2.png?raw=true" alt="lineup_02"><br>  
+<img src="https://github.com/airpocket-soundman/M5ColorFinderWS/blob/main/image/M5_3.png?raw=true" alt="lineup_03">  
   
 # スポンサー紹介
   
@@ -64,7 +64,9 @@ M5いろさがしは「UIFlow」というブロックプログラミング環境
 M5Bunerを以下のサイトからダウンロードします。  
 https://docs.m5stack.com/en/download
   
-<img src="https://github.com/airpocket-soundman/M5ColorFinderWS/blob/main/image/burner_download" alt="lineup_02"><br>  
+<img src="https://github.com/airpocket-soundman/M5ColorFinderWS/blob/main/image/burner_download.png?raw=true" alt="burner download"><br>  
+  
+ダウンロードしたファイルを解凍しツールを実行します。
 
 # M5いろあつめ　制作
 
