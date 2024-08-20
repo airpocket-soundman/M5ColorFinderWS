@@ -295,7 +295,7 @@ M5StickCの「Aボタン」を押してゲームを進める機能を追加し�
 
 <img src="https://github.com/airpocket-soundman/M5ColorFinderWS/blob/main/image/uiflow_29.png?raw=true" alt="uiflow_29"><br>
 
-条件式と関数、step_numberの変更ブロックを追加してください。
+条件式と関数、step_numberの変更ブロックを追加してください。  
 <img src="https://github.com/airpocket-soundman/M5ColorFinderWS/blob/main/image/uiflow_29_2.png?raw=true" alt="uiflow_29_2"><br>
   
 ## 動作確認１
