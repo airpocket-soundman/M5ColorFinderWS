@@ -227,5 +227,65 @@ Height:90
 数値を入力するブロックは「数学」の中にあります。
 <img src="https://github.com/airpocket-soundman/M5ColorFinderWS/blob/main/image/uiflow_14.png?raw=true" alt="uiflow_14"><br>
   
-これらのブロックを組み合わせて、setupブロックにつなげます。setupブロックは、UIFlow内で最初に実行されるエントリーポイントです。  
+これらのブロックを組み合わせて、Setupブロックにつなげます。Setupブロックは、UIFlow内で最初に実行されるエントリーポイントです。  
 <img src="https://github.com/airpocket-soundman/M5ColorFinderWS/blob/main/image/uiflow_15.png?raw=true" alt="uiflow_15"><br>
+
+## 関数を作る
+  
+関数はいくつかの命令を一つにまとめたものです。  
+まず「set_target_color」という関数を作ります。  
+この関数は、ターゲットとなる色の値をランダムに決定し、rectangle0に表示します。   
+<img src="https://github.com/airpocket-soundman/M5ColorFinderWS/blob/main/image/uiflow_23.png?raw=true" alt="uiflow_23"><br>
+  
+関数を作成するブロックはブロックリストの「関数」の中にあります。
+<img src="https://github.com/airpocket-soundman/M5ColorFinderWS/blob/main/image/uiflow_16.png?raw=true" alt="uiflow_16"><br>
+  
+先ほど使った変数に値を入力するブロックとランダムな数値を入力するブロックを使用して、「target_r」「target_g」「taget_b」の三つのブロックに0～255の間のランダムな数値を入力します。  
+ランダムな数値を入力するブロックは「数学」の中にあります。  
+<img src="https://github.com/airpocket-soundman/M5ColorFinderWS/blob/main/image/uiflow_18.png?raw=true" alt="uiflow_18"><br>
+  
+変数「target_r」「target_g」「taget_b」に従ってrectangle0の色を変更します。  
+ rectangleの色を変更するブロックはブロックリストの「UI」＞「四角形」の中にあります。
+ <img src="https://github.com/airpocket-soundman/M5ColorFinderWS/blob/main/image/uiflow_19.png?raw=true" alt="uiflow_19"><br>
+   
+以上のブロックを使って、次の様な関数を組み立ててください。
+<img src="https://github.com/airpocket-soundman/M5ColorFinderWS/blob/main/image/uiflow_23.png?raw=true" alt="uiflow_23"><br>
+
+同様に、player1とplayer2が見つけた色を登録する関数を作成します。  
+関数名は「get_player1_color」「get_player2_color」です。  
+<img src="https://github.com/airpocket-soundman/M5ColorFinderWS/blob/main/image/uiflow_24.png?raw=true" alt="uiflow_24"><br>
+  
+ここでは、カラーセンサから色の値を読み取るブロックを使用します。  
+色の値を読み取るブロックは、「Units」＞「Color」の中にあります。
+ｖ
+  
+  
+**Tips**  
+*同じブロックを使用する際は、コピーしたいブロックをダブルクリックするだけでコピーできます。関数の様に複数ブロックを囲っている場合は、囲われているブロックごとコピーされます。*
+  
+## 関数を使用する
+  
+作成した関数はブロックリストの「関数」の中に新しいブロックとして表示されています。
+<img src="https://github.com/airpocket-soundman/M5ColorFinderWS/blob/main/image/uiflow_21.png?raw=true" alt="uiflow_21"><br>
+  
+作成した「set_target_color」関数をSetupブロックにつなげて画面の初期化を行います。  
+<img src="https://github.com/airpocket-soundman/M5ColorFinderWS/blob/main/image/uiflow_22.png?raw=true" alt="uiflow_22"><br>
+  
+## ボタンを押してゲームを進める
+  
+M5StickCの「Aボタン」を押してゲームを進める機能を追加します。  
+「Aボタン」は、ディスプレイ下に配置されています。  
+ボタンに合せて動作するブロックは「イベント」の中にあります。
+<img src="https://github.com/airpocket-soundman/M5ColorFinderWS/blob/main/image/uiflow_26.png?raw=true" alt="uiflow_26"><br>
+  
+ゲームはstep_numberの値に合わせて3段階で進行します。「もし～であれば」ブロックを使用して条件式を使い、動作を制御します。  
+「もし～であれば」ブロックは、「論理」の中にあります。  
+同時に条件式を入力するブロックも使用します。  
+<img src="https://github.com/airpocket-soundman/M5ColorFinderWS/blob/main/image/uiflow_27.png?raw=true" alt="uiflow_27"><br> 
+  
+引き出した状態のブロックを次のようにつなげてください。
+<img src="https://github.com/airpocket-soundman/M5ColorFinderWS/blob/main/image/uiflow_28.png?raw=true" alt="uiflow_28"><br>
+  
+このままでは一つの状態しか扱えないため「もし～であれば」ブロックの歯車をクリックして、「else if」を追加して三つの状態を扱える様にします。
+<img src="https://github.com/airpocket-soundman/M5ColorFinderWS/blob/main/image/uiflow_29.png?raw=true" alt="uiflow_29"><br>
+  
