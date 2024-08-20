@@ -231,7 +231,8 @@ Height:90
 数値を入力するブロックは「数学」の中にあります。
 <img src="https://github.com/airpocket-soundman/M5ColorFinderWS/blob/main/image/uiflow_14.png?raw=true" alt="uiflow_14"><br>
   
-これらのブロックを組み合わせて、Setupブロックにつなげます。Setupブロックは、UIFlow内で最初に実行されるエントリーポイントです。  
+これらのブロックを組み合わせて、Setupブロックにつなげます。  
+Setupブロックは、UIFlow内で最初に実行されるエントリーポイントです。  
 <img src="https://github.com/airpocket-soundman/M5ColorFinderWS/blob/main/image/uiflow_15.png?raw=true" alt="uiflow_15"><br>
 
 ## 関数を作る
@@ -261,7 +262,7 @@ Height:90
   
 ここでは、カラーセンサから色の値を読み取るブロックを使用します。  
 色の値を読み取るブロックは、「Units」＞「Color」の中にあります。
-ｖ
+<img src="https://github.com/airpocket-soundman/M5ColorFinderWS/blob/main/image/uiflow_25.png?raw=true" alt="uiflow_25"><br>
   
   
 **Tips**  
