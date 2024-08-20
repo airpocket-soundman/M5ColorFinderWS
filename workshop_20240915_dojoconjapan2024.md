@@ -134,3 +134,91 @@ https://flow.m5stack.com/
 ### デバイスの選択
 UIFlowのエディタ画面が開いたら、右上の三本線のアイコンをマウスオーバーし、「設定」をクリックしてください。  
 <img src="https://github.com/airpocket-soundman/M5ColorFinderWS/blob/main/image/uiflow_00.png?raw=true" alt="uiflow_00"><br>
+  
+Api Keyの欄には、M5StickCのディスプレイに表示されているAPI KEYを入力します。  
+Serverは任意ですが、ここでは「flow-jp.m5stack.com(Japan)」を選択します。  
+下段には使用するデバイスがアイコンで表示されていますので使用するデバイスを選択します。ここではM5StickC Plusを選択しています。  
+全て入力できたら「OK」をクリックします。  
+<img src="https://github.com/airpocket-soundman/M5ColorFinderWS/blob/main/image/uiflow_01.png?raw=true" alt="uiflow_01"><br>
+  
+### カラーセンサユニットを接続する
+  
+M5いろあつめでは、カラーセンサユニットを使用します。M5StickCとカラーセンサを付属のGroveケーブルで接続してください。  
+  
+UIFlowでもセンサを追加するとセンサを制御するブロックが使える様になります。  
+画面左側の「＋」アイコンをクリックして接続するUnitを選択します。  
+<img src="https://github.com/airpocket-soundman/M5ColorFinderWS/blob/main/image/uiflow_02.png?raw=true" alt="uiflow_02"><br>
+  
+M5Stackで使えるユニットがたくさん表示されます。ダイアログ上部の検索窓に「color」と入力して絞り込みます。  
+今回使用するカラーセンサのチェックボックスをクリックします。「port」にA(33,32)と表示されていることを確認して右下の「OK」をクリックしてください。  
+「port」はM5Stickとセンサユニットの接続に使用するポートを指定する項目です。カラーセンサはport Aを使用します。  
+<img src="https://github.com/airpocket-soundman/M5ColorFinderWS/blob/main/image/uiflow_03.png?raw=true" alt="uiflow_03"><br>
+  
+## M5Stickのディスプレイをデザインする
+  
+UIFlowの画面左のエリアで、ディスプレイのデザインができます。  
+M5いろあつめでは、3つの四角形と二つのラベル（テキスト表示）を使用します。  
+まず、左側にある「Rect」アイコンをM5StickCのディスプレイにドラッグします。  
+ディスプレイに小さな四角が表示されるので、この四角をクリックしてプロパティを開きます。  
+<img src="https://github.com/airpocket-soundman/M5ColorFinderWS/blob/main/image/uiflow_04.png?raw=true" alt="uiflow_04"><br>
+  
+プロパティの以下の項目を修正します。  
+X:0  
+y:0  
+Width:135  
+Height:120  
+  
+M5Stick C Plus及びC Plus 2のディスプレイは幅135、高さ240ピクセル、原点(0, 0)はディスプレイ左上です。
+<img src="https://github.com/airpocket-soundman/M5ColorFinderWS/blob/main/image/uiflow_05.png?raw=true" alt="uiflow_05"><br>
+  
+続いて残り二つの四角を引き出してディスプレイ上に適当に配置します。  
+<img src="https://github.com/airpocket-soundman/M5ColorFinderWS/blob/main/image/uiflow_06.png?raw=true" alt="uiflow_06"><br>
+  
+それぞれrectangle1、rectangle2と命名されているので、プロパティを開いて次の通り設定します。
+  
+・rectangle1  
+X:0  
+y:122  
+Width:66  
+Height:90  
+
+・rectangle2  
+X:69  
+y:122  
+Width:66  
+Height:90  
+
+<img src="https://github.com/airpocket-soundman/M5ColorFinderWS/blob/main/image/uiflow_07.png?raw=true" alt="uiflow_07"><br>
+<img src="https://github.com/airpocket-soundman/M5ColorFinderWS/blob/main/image/uiflow_08.png?raw=true" alt="uiflow_08"><br>
+  
+続いて、テキストを表示するための「ラベル」を配置します。  
+左端のLabelアイコンをディスプレイ上に二つドラッグします。それぞれ「label0」「label1」と表示されていればOKです。  
+<img src="https://github.com/airpocket-soundman/M5ColorFinderWS/blob/main/image/uiflow_09.png?raw=true" alt="uiflow_09"><br>
+
+## 変数を作成する
+  
+プログラムで使用する変数を作成します。  
+ブロックのリストから「変数」＞「変数の作成…」をクリックすると変数を作成できます。  
+<img src="https://github.com/airpocket-soundman/M5ColorFinderWS/blob/main/image/uiflow_10.png?raw=true" alt="uiflow_10"><br>
+  
+作成する変数名を入力して「OK」をクリックします。
+<img src="https://github.com/airpocket-soundman/M5ColorFinderWS/blob/main/image/uiflow_11.png?raw=true" alt="uiflow_11"><br>
+  
+同様に以下のすべての変数を作成してください。  
+・distance1  
+・distance2  
+・player1_b  
+・player1_g  
+・player1_r  
+・player2_b  
+・player2_g  
+・player2_r  
+・step_number  
+・target_b  
+・target_g
+・target_r  
+
+<img src="https://github.com/airpocket-soundman/M5ColorFinderWS/blob/main/image/uiflow_12.png?raw=true" alt="uiflow_12"><br>
+  
+作成した変数のうち、「step_number」を初期化します。  
+「変数」ブロックから変数に値を入れるブロックを使って、step_numberの値を1にします。
