@@ -222,3 +222,10 @@ Height:90
   
 作成した変数のうち、「step_number」を初期化します。  
 「変数」ブロックから変数に値を入れるブロックを使って、step_numberの値を1にします。
+<img src="https://github.com/airpocket-soundman/M5ColorFinderWS/blob/main/image/uiflow_13.png?raw=true" alt="uiflow_13"><br>
+  
+数値を入力するブロックは「数学」の中にあります。
+<img src="https://github.com/airpocket-soundman/M5ColorFinderWS/blob/main/image/uiflow_14.png?raw=true" alt="uiflow_14"><br>
+  
+これらのブロックを組み合わせて、setupブロックにつなげます。setupブロックは、UIFlow内で最初に実行されるエントリーポイントです。  
+<img src="https://github.com/airpocket-soundman/M5ColorFinderWS/blob/main/image/uiflow_15.png?raw=true" alt="uiflow_15"><br>
