@@ -21,8 +21,8 @@ otomaさん制作の色探しゲーム。
   
 <img src="https://github.com/airpocket-soundman/M5ColorFinderWS/blob/main/image/airpocket2-removebg-preview.png?raw=true" width="20%" alt="airpokcet mark">   
 
-山下 泰弘/airpocket  
-ホビーメイカー  
+山下 泰弘/airpocket　@岡南・吉備  
+ホビイスト・メイカー・otamaの父  
 M5Stack Japan Creativity Contest 2021 優勝    
 M5Stack Japan Creativity Contest 2022 M5Stayle賞    
 M5Stack Japan Creativity Contest 2023 準優勝    
