@@ -39,14 +39,6 @@ M5Stack Japan Creativity Contest 2023 準優勝
 <img src="https://github.com/airpocket-soundman/M5ColorFinderWS/blob/main/image/M5_2.png?raw=true" alt="lineup_02"><br>  
 <img src="https://github.com/airpocket-soundman/M5ColorFinderWS/blob/main/image/M5_3.png?raw=true" alt="lineup_03">  
   
-# スポンサー紹介
-  
-**株式会社スイッチサイエンス様**  
-今回のワークショップに使用する機材をご提供いただきました。ありがとうございます。  
-公式代理店としてM5Stack製品を日本に広め、各種イベントを開催。ユーザーグループの発展にも多大な協力をされています。  
-いちユーザーとしては足を向けられません。  
-M5Stack製品の在庫が最も充実しています。  
-  
 # 事前準備
   
 ## 充電
