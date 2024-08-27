@@ -16,8 +16,8 @@ M5StickCを使って、色を探すゲームを制作するワークショップ
 otomaさん制作の色探しゲーム。  
 二人のプレイヤーがお題で示された色に近い色を探してカラーセンサで読み取り、より近い色を探したプレイヤーが勝ち。    
 参考サイト：[https://protopedia.net/prototype/5078](https://protopedia.net/prototype/5078)  
-['M5いろあつめ']('https://www.youtube.com/watch?v=e3ZlczS7vGU')
-  
+[!['M5いろあつめ'](http://img.youtube.com/vi/e3ZlczS7vGU/0.jpg)](https://www.youtube.com/watch?v=e3ZlczS7vGU)
+ 
 # 3.M5Stackとは
   
 ・M5Stackとは、主にESP32シリーズのSoCをコントローラに採用したマイコンボード。  
