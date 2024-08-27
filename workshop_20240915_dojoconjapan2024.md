@@ -8,6 +8,8 @@ M5StickCを使って、色を探すゲームを制作するワークショップ
 ・M5StickC Plus もしくは M5StickC Plus 2  
 ・M5Stack用カラーセンサユニット  
 ・Wi-Fi 2.4GHz帯接続  
+
+https://github.com/airpocket-soundman/M5ColorFinderWS  
   
 # M5いろさがしとは
   
