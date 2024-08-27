@@ -84,7 +84,7 @@ M5Burnerを実行したら、左のカラムからコントローラの大分類
 M5Stackシリーズは原則2.4GHz帯のみ対応していますので、2.4GHz帯のアクセスポイントを指定してください。  
 <img src="https://github.com/airpocket-soundman/M5ColorFinderWS/blob/main/image/firmware_burn_3.png?raw=true" alt="firmware burn 3"><br>  
   
-書き込みが開始されるのでしばらく待つと以下の通り表示されると完了です。「Burn successfully, click here to return」のボタンを押して下さい。
+書き込みが開始されるのでしばらく待つと以下の通り表示されると完了です。「Burn successfully, click here to return」のボタンを押して下さい。  
 <img src="https://github.com/airpocket-soundman/M5ColorFinderWS/blob/main/image/firmware_burn_4.png?raw=true" alt="firmware burn 4"><br>  
   
 正しく設定されている場合、M5StickCの画面い次の写真の様にAPI KEYが表示されます。  
