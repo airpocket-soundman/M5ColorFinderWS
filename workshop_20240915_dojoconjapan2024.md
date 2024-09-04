@@ -2,14 +2,21 @@
   
 M5StickCを使って、色を探すゲームを制作するワークショップです。  
 プログラム言語としてUIFlowというブロックプログラミングを使用します。  
-スキルレベル：Scratchができる。MakeCodeでMicro:bitのプログラミングができる。  
-必要機材および環境：  
-・プログラミング用PC  
+スキルレベル：Scratchができる。MakeCodeでmicro:bitのプログラミングができる。  
+
+## 必要機材および環境
+  
+・プログラミング用PC（ネットワーク接続できて、ブラウザが動かせること）  
 ・M5StickC Plus もしくは M5StickC Plus 2  
 ・M5Stack用カラーセンサユニット  
-・Wi-Fi 2.4GHz帯接続  
+・Wi-Fi 2.4GHz帯接続環境  
 
 https://github.com/airpocket-soundman/M5ColorFinderWS  
+
+## ワークショップのねらい
+  
+・M5StackがどんなものかUIFlowを使って実際にプログラミングしてみる。
+・Scratchやmicro:bitの「次」をさがす。
   
 # M5いろさがしとは
   
