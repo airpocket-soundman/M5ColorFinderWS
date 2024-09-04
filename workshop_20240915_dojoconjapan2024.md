@@ -15,8 +15,8 @@ https://github.com/airpocket-soundman/M5ColorFinderWS
 
 ## ワークショップのねらい
   
-・M5StackがどんなものかUIFlowを使って実際にプログラミングしてみる。
-・Scratchやmicro:bitの「次」をさがす。
+・M5StackがどんなものかUIFlowを使って実際にプログラミングしてみる。  
+・Scratchやmicro:bitの「次」をさがす。  
   
 # M5いろさがしとは
   
