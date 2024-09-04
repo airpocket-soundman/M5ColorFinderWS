@@ -226,7 +226,7 @@ Height:90
 ・player2_r  
 ・step_number  
 ・target_b  
-・target_g
+・target_g  
 ・target_r  
 
 <img src="https://github.com/airpocket-soundman/M5ColorFinderWS/blob/main/image/uiflow_12.png?raw=true" alt="uiflow_12"><br>
