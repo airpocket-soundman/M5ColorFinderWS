@@ -38,7 +38,7 @@ otomaさん制作の色探しゲーム。
 山下 泰弘/airpocket　@岡南・吉備  
 ホビイスト・メイカー・otamaの父  
 M5Stack Japan Creativity Contest 2021 優勝    
-M5Stack Japan Creativity Contest 2022 M5Stayle賞    
+M5Stack Japan Creativity Contest 2022 M5Style賞    
 M5Stack Japan Creativity Contest 2023 準優勝    
   
 # M5Stackとは
