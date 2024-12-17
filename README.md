@@ -1,4 +1,4 @@
-# M5いろさがしワークショップ
+# 1.M5いろさがしワークショップ
   
 M5StickCを使って、色を探すゲームを制作するワークショップです。  
 プログラム言語としてUIFlowというブロックプログラミングを使用します。  
@@ -8,16 +8,19 @@ M5StickCを使って、色を探すゲームを制作するワークショップ
 ・M5StickC Plus もしくは M5StickC Plus 2  
 ・M5Stack用カラーセンサユニット  
 ・Wi-Fi 2.4GHz帯接続  
+
+https://github.com/airpocket-soundman/M5ColorFinderWS
   
-# M5いろさがしとは
+# 2.M5いろさがしとは
   
 <img src="https://github.com/airpocket-soundman/M5ColorFinderWS/blob/main/image/otama.png?raw=true" width="20%" alt="otama mark">  
 
 otomaさん制作の色探しゲーム。  
 二人のプレイヤーがお題で示された色に近い色を探してカラーセンサで読み取り、より近い色を探したプレイヤーが勝ち。    
 参考サイト：[https://protopedia.net/prototype/5078](https://protopedia.net/prototype/5078)  
-  
-# M5Stackとは
+[!['M5いろあつめ'](http://img.youtube.com/vi/e3ZlczS7vGU/0.jpg)](https://www.youtube.com/watch?v=e3ZlczS7vGU)
+ 
+# 3.M5Stackとは
   
 ・M5Stackとは、主にESP32シリーズのSoCをコントローラに採用したマイコンボード。  
 ・メインラインの製品群は5cm各の正方形のプラスチック筐体に各種パーツを重ねる（スタックする）ことで機能拡張できる。  
@@ -29,7 +32,7 @@ otomaさん制作の色探しゲーム。
 <img src="https://github.com/airpocket-soundman/M5ColorFinderWS/blob/main/image/M5_2.png?raw=true" alt="lineup_02"><br>  
 <img src="https://github.com/airpocket-soundman/M5ColorFinderWS/blob/main/image/M5_3.png?raw=true" alt="lineup_03">  
   
-# 事前準備
+# 4.事前準備
   
 ## 充電
   
@@ -83,7 +86,7 @@ M5Burnerを実行したら、左のカラムからコントローラの大分類
 M5Stackシリーズは原則2.4GHz帯のみ対応していますので、2.4GHz帯のアクセスポイントを指定してください。  
 <img src="https://github.com/airpocket-soundman/M5ColorFinderWS/blob/main/image/firmware_burn_3.png?raw=true" alt="firmware burn 3"><br>  
   
-書き込みが開始されるのでしばらく待つと以下の通り表示されると完了です。「Burn successfully, click here to return」のボタンを押して下さい。
+書き込みが開始されるのでしばらく待つと以下の通り表示されると完了です。「Burn successfully, click here to return」のボタンを押して下さい。  
 <img src="https://github.com/airpocket-soundman/M5ColorFinderWS/blob/main/image/firmware_burn_4.png?raw=true" alt="firmware burn 4"><br>  
   
 正しく設定されている場合、M5StickCの画面い次の写真の様にAPI KEYが表示されます。  
@@ -110,7 +113,7 @@ M5Stickの設定を確認するにはM5Burnerの「Configure」ボタンを押�
   
 <img src="https://github.com/airpocket-soundman/M5ColorFinderWS/blob/main/image/configure_3.png?raw=true" alt="configure 3"><br>
   
-# M5いろあつめ　制作
+# 5.M5いろあつめ　制作
 ## UIFlowを開く
 UIFlowはブラウザ上で動作するブロックプログラミング環境です。  
 次のサイトを開いてみましょう。  
@@ -330,7 +333,7 @@ rectangleの表示を変更するブロックは「UI」＞「四角形」の中
 
 正しく動作したら、「ダウンロード」ボタンを押してメモリに書き込んでください。
 
-# M5いろあつめの遊び方
+# 6.M5いろさがしの遊び方
   
 ①M5StickCにカラーセンサを接続してから電源を入れてください。  
 ②Aボタンを押すとゲームが開始され、ディスプレイ上部に目的となる色が表示されます。  

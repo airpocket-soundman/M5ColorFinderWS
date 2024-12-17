@@ -1,13 +1,26 @@
 # M5いろさがしワークショップ
   
 M5StickCを使って、色を探すゲームを制作するワークショップです。  
-プログラム言語としてUIFlowというブロックプログラミングを使用します。  
-スキルレベル：Scratchができる。MakeCodeでMicro:bitのプログラミングができる。  
-必要機材および環境：  
-・プログラミング用PC  
+プログラム言語としてUIFlowというブロックプログラミングを使用します。 
+
+## 想定するスキルレベル
+  
+Scratchができる。  
+MakeCodeでmicro:bitのプログラミングができる。  
+  
+## 必要機材および環境
+  
+・プログラミング用PC（ネットワーク接続できて、ブラウザが動かせること）  
 ・M5StickC Plus もしくは M5StickC Plus 2  
 ・M5Stack用カラーセンサユニット  
-・Wi-Fi 2.4GHz帯接続  
+・Wi-Fi 2.4GHz帯接続環境  
+
+https://github.com/airpocket-soundman/M5ColorFinderWS  
+
+## ワークショップのねらい
+  
+・M5StackがどんなものかUIFlowを使って実際にプログラミングしてみる。  
+・Scratchやmicro:bitの「次」をさがす。  
   
 # M5いろさがしとは
   
@@ -16,6 +29,7 @@ M5StickCを使って、色を探すゲームを制作するワークショップ
 otomaさん制作の色探しゲーム。  
 二人のプレイヤーがお題で示された色に近い色を探してカラーセンサで読み取り、より近い色を探したプレイヤーが勝ち。    
 参考サイト：[https://protopedia.net/prototype/5078](https://protopedia.net/prototype/5078)  
+[!['M5いろあつめ'](http://img.youtube.com/vi/e3ZlczS7vGU/0.jpg)](https://www.youtube.com/watch?v=e3ZlczS7vGU)  
 
 # メンター自己紹介
   
@@ -24,7 +38,7 @@ otomaさん制作の色探しゲーム。
 山下 泰弘/airpocket　@岡南・吉備  
 ホビイスト・メイカー・otamaの父  
 M5Stack Japan Creativity Contest 2021 優勝    
-M5Stack Japan Creativity Contest 2022 M5Stayle賞    
+M5Stack Japan Creativity Contest 2022 M5Style賞    
 M5Stack Japan Creativity Contest 2023 準優勝    
   
 # M5Stackとは
@@ -212,7 +226,7 @@ Height:90
 ・player2_r  
 ・step_number  
 ・target_b  
-・target_g
+・target_g  
 ・target_r  
 
 <img src="https://github.com/airpocket-soundman/M5ColorFinderWS/blob/main/image/uiflow_12.png?raw=true" alt="uiflow_12"><br>
